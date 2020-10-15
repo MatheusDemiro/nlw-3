@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { FiArrowRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
@@ -6,9 +6,9 @@ import '../styles/pages/landing.css'
 
 import logoIgm from '../images/logo.svg'
 
-function Landing() {
-    return (
-        <div id="page-landing">
+function Landing () {
+  return (
+    <div id="page-landing">
       <div className="content-wrapper">
         <img src={logoIgm} alt="Happy"></img>
 
@@ -27,7 +27,7 @@ function Landing() {
         </Link>
       </div>
     </div>
-    );
+  )
 }
 
-export default Landing;
+export default Landing
